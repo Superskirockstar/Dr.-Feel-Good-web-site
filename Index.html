@@ -1,62 +1,25 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>My Simple Site</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Your Website</h1>
-    </header>
-    <main>
-        <p>Content goes here</p>
-    </main>
-    <footer>
-        <p>&copy; 2024 Your Website. All rights reserved.</p>
-    </footer>
-    <script src="assets/js/main.js"></script>
+    <h1>Welcome to My Site</h1>
+    <p>This is a simple, fast-loading static website.</p>
 </body>
 </html>
-
-/* assets/css/styles.css */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 20px;
-}
-
-header {
-    text-align: center;
-    padding: 2rem 0;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
-}
-
-/* .gitignore */
-.DS_Store
-node_modules/
-.env
-*.log
-
-/* CNAME */
-yourdomain.com
-
-/* README.md */
-# Your Website
-
-This is a static website hosted on GitHub Pages.
-
-## Development
-
-1. Clone the repository
-2. Make changes
-3. Push to main branch
-4. Site will auto-deploy
